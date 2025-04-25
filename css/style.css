@@ -1,0 +1,38 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+@media (max-width: 1020px) {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media(max-width:800px) {
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media(max-width:800px){
+    .grid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width:368px){
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+.grad{
+    display: grad;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+
+
+
